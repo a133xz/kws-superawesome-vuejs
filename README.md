@@ -82,6 +82,37 @@ curl -X POST \
 
 If you want learn how to use SuperAwesome API [go to their documentation](https://doc.superawesome.tv/sa-kws-docs/latest/api-spec.html#introduction)
 
+## Run the project
+
+> If you want to deploy the site to firebase you'll have to change the ID on `.firebaserc`
+
+### Get the repo
+
+```sh
+git clone https://github.com/a133xz/kws-superawesome-vuejs.git
+```
+
+### Install dependencies
+
+```sh
+yarn install or npm install
+```
+
+### Run the commands. You can replace `yarn` with `npm run` here
+
+```bash
+# development mode
+yarn start
+
+# build for production
+yarn build
+
+# deploy your site to firebase. You'll need an account first
+yarn deploy
+```
+
+> If you're using `VSCode` you might want to remove the setings I added to hide the files
+
 ## Contribuiting
 
 Pull requests are welcome!
