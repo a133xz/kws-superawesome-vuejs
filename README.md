@@ -1,6 +1,6 @@
 # SuperAwesome Vue.js API Boilerplate
 
-Boilerplate/Starter project for building [SuperAwesome API](https://doc.superawesome.tv/sa-kws-docs/latest/getting-started.html) using [Vue.js](https://vuejs.org/) and [Parcel](https://parceljs.org/)
+Boilerplate/Starter project for building [Kids Web Services API](https://doc.superawesome.tv/sa-kws-docs/latest/getting-started.html) using [Vue.js](https://vuejs.org/) and [Parcel](https://parceljs.org/)
 
 > I'm using as example the configuration for the platform I'm testing at [Bright Little Labs](https://brightlittlelabs.org/)
 

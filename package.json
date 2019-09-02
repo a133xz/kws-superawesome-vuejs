@@ -1,9 +1,9 @@
 {
   "author": "Antonio Rob",
   "license": "MIT",
-  "name": "superawesome-vuejs",
+  "name": "kws-superawesome-vuejs",
   "version": "1.0.0",
-  "description": "Simple SuperAwesome login + Vuejs",
+  "description": "Simple KWS login + Vuejs",
   "main": "index.html",
   "keywords": [
     "superawesome",
