@@ -73,6 +73,8 @@ export default {
     });
     // If the token exist
     if (window.localStorage.getItem("sa.kws.user.token")) {
+      // Remove the token from the URL
+      window.location.hash = "";
       // VM
       let vm = this;
       this.kwsSdk.app.user
@@ -98,8 +100,6 @@ export default {
       this.kwsSdk.signIn();
     },
     signOut: function() {
-      // Sign Out method doesn't remove the token hash
-      window.location.hash = "";
       this.kwsSdk.signOut();
     },
     toggle: function() {
