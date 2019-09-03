@@ -76,15 +76,15 @@ curl -X POST \
  -d 'grant_type=password&username={{USERNAME}}&password={{PASSWORD}}'
 ```
 
-> The value for the Authorization header is `superawesome:superawesome` encrypted in base 64.
+The value for the Authorization header is `superawesome:superawesome` encrypted in base 64.
 
 ## SuperAwesome API
 
-If you want learn how to use SuperAwesome API [go to their documentation](https://doc.superawesome.tv/sa-kws-docs/latest/api-spec.html#introduction)
+Go to the SuperAwesome [KWS API documentation](https://doc.superawesome.tv/sa-kws-docs/latest/api-spec.html#introduction) to learn how to use their API
 
 ## Run the project
 
-> If you want to deploy the site to firebase you'll have to change the ID on `.firebaserc`
+If you want to deploy the site to firebase you'll have to change the ID on `.firebaserc`
 
 ### Get the repo
 
@@ -110,8 +110,6 @@ yarn build
 # deploy your site to firebase. You'll need an account first
 yarn deploy
 ```
-
-> If you're using `VSCode` you might want to remove the setings I added to hide the files
 
 ## Contribuiting
 
